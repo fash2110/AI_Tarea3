@@ -1,0 +1,8 @@
+models:
+  - vae
+  - unet
+losses:
+  - l1
+  - l2
+  - ssim
+  - ssim_l1
