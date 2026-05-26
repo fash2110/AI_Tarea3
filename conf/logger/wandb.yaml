@@ -1,0 +1,10 @@
+# Entity: null = cuenta W&B de la API key. Override con WANDB_ENTITY en .env
+project: ${oc.env:WANDB_PROJECT,Tarea_3}
+entity: ${oc.env:WANDB_ENTITY,fabriciomena11-tec}
+tags:
+  - mvtec
+  - tarea-3
+  - ${model.name}
+  - ${loss.name}
+log_model: false
+save_dir: wandb_logs

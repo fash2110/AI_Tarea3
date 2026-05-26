@@ -1,0 +1,4 @@
+name: ssim_l1
+type: ssim_l1
+ssim_weight: 0.5
+l1_weight: 0.5
